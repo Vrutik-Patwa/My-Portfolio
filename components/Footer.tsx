@@ -91,7 +91,7 @@ const Footer = () => {
             <textarea
               id="message"
               name="message"
-              rows="4"
+              rows={4}
               placeholder="Write your message here"
               className="w-full mt-2 p-3 border border-gray-300 rounded-md bg-black-200 text-white focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
               required
