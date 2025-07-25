@@ -4,7 +4,8 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa";
-import { RxAvatar } from "react-icons/rx";
+import Image from "next/image";
+// import { RxAvatar } from "react-icons/rx";
 
 const Hero = () => {
   return (
@@ -29,11 +30,17 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            <RxAvatar className="size-20" />
+            {/* <Image
+              src="/avatar.png"
+              alt="avatar"
+              width={90}
+              height={90}
+              className="rounded-2xl"
+            /> */}
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Hello, I'm a Full Stack Developer"
+            words="Hello, I'm Vrutik Patwa & I'm a  Full Stack Developer"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             I have a strong desire to learn new things. My goal is to build

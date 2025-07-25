@@ -153,7 +153,7 @@ export const BentoGridItem = ({
                 />
               </div>
               <MagicButton
-                title={copied ? "Email copied" : "copy my Email"}
+                title={copied ? "Email copied" : "Copy My Email"}
                 icon={
                   copied ? (
                     <BsFillClipboardCheckFill className="text-green-500 w-6 h-6" />

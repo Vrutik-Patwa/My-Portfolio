@@ -2,13 +2,14 @@ import { workExperience } from "@/data";
 import React from "react";
 import { Button } from "./ui/MovingBorders";
 import Image from "next/image";
+import Link from "next/link";
 
 const Experience = () => {
   return (
     <div id="experience" className="py-20">
       <h1 className="heading">
         My
-        <span className="text-purple"> Work Experience</span>
+        <span className="text-purple"> DSA</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
@@ -18,7 +19,12 @@ const Experience = () => {
             borderRadius="1.75rem"
             className="flex-1 text-white border-natural-200 dark:border-slate-800"
           >
-            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+            <Link
+              className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2"
+              href={card.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src={card.thumbnail}
                 alt={card.thumbnail}
@@ -35,7 +41,7 @@ const Experience = () => {
                   {card.desc}
                 </p>
               </div>
-            </div>
+            </Link>
           </Button>
         ))}
       </div>
