@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.2.0",
+    "@types/react-lottie": "^1.2.10",
+    "@types/three": "^0.178.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.9",
     "mini-svg-data-uri": "^1.4.4",
@@ -19,7 +22,8 @@
     "react-icons": "^5.5.0",
     "react-lottie": "^1.2.10",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.178.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

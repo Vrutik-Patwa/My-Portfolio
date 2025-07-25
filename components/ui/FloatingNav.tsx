@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import { JSX } from "react";
 
 export const FloatingNav = ({
   navItems,
