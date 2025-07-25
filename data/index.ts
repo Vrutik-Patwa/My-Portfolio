@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
+  // { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -206,7 +206,7 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     name: "git",
-    link: "https://github.com/",
+    link: "https://github.com/vrutikpatwa",
   },
   {
     id: 2,
@@ -219,5 +219,22 @@ export const socialMedia = [
     img: "/link.svg",
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/vrutik-patwa/",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Dummy1",
+    desc: "Worked on building responsive and interactive UIs using Next.js, TypeScript, React.js, Tailwind CSS, Material UI, and ShadCN UI.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Dummy2",
+    desc: "Developed and modified the frontend of the Vighnotech website, worked on CRM pages, and optimized the website for SEO.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
 ];

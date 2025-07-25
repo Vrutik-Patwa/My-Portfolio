@@ -40,7 +40,7 @@ const Hero = () => {
             innovative tech solutions and lead impactful projects. I may not
             know everything, but I know where to find the answers!
           </p>
-          <Link href="#about">
+          <Link href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
