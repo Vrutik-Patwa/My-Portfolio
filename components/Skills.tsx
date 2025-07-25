@@ -6,7 +6,7 @@ interface skillType {
   skill: string;
 }
 
-const skillTypeArray: skillType[] = [
+const Framework_Library: skillType[] = [
   {
     path: "/next.svg",
     skill: "Next JS",
@@ -14,14 +14,6 @@ const skillTypeArray: skillType[] = [
   {
     path: "/React.svg",
     skill: "React JS",
-  },
-  {
-    path: "/ts.svg",
-    skill: "TypeScript",
-  },
-  {
-    path: "/Js.svg",
-    skill: "JavaScript",
   },
   {
     path: "/tail.svg",
@@ -32,6 +24,25 @@ const skillTypeArray: skillType[] = [
     skill: "Bootstrap",
   },
   {
+    path: "/expressjs.svg",
+    skill: "Express Js",
+  },
+  {
+    path: "/nodejs.svg",
+    skill: "Node Js",
+  },
+];
+
+const languages: skillType[] = [
+  {
+    path: "/ts.svg",
+    skill: "TypeScript",
+  },
+  {
+    path: "/Js.svg",
+    skill: "JavaScript",
+  },
+  {
     path: "/css.svg",
     skill: "CSS",
   },
@@ -39,8 +50,6 @@ const skillTypeArray: skillType[] = [
     path: "/html.svg",
     skill: "HTML",
   },
-];
-const languagesAndTools: skillType[] = [
   {
     path: "/c.svg",
     skill: "C",
@@ -58,6 +67,13 @@ const languagesAndTools: skillType[] = [
     skill: "PYTHON",
   },
   {
+    path: "/sql.svg",
+    skill: "SQL",
+  },
+];
+
+const toolsAndDatabases: skillType[] = [
+  {
     path: "/git.svg",
     skill: "Git",
   },
@@ -68,6 +84,14 @@ const languagesAndTools: skillType[] = [
   {
     path: "/postman.svg",
     skill: "Postman",
+  },
+  {
+    path: "/mongo.svg",
+    skill: "Mongo DB",
+  },
+  {
+    path: "/sql.svg",
+    skill: "My SQL",
   },
 ];
 
@@ -81,7 +105,7 @@ const Skills = () => {
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full">
           <InfiniteMovingCards
-            items={skillTypeArray}
+            items={Framework_Library}
             direction="right"
             speed="fast"
           />
@@ -90,8 +114,17 @@ const Skills = () => {
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full">
           <InfiniteMovingCards
-            items={languagesAndTools}
+            items={languages}
             direction="left"
+            speed="normal"
+          />
+        </div>
+      </div>
+      <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
+        <div className="w-full">
+          <InfiniteMovingCards
+            items={toolsAndDatabases}
+            direction="right"
             speed="fast"
           />
         </div>
