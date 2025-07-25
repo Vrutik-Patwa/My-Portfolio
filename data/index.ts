@@ -75,7 +75,7 @@ export const projects = [
     id: 1,
     title: "QuickChat",
     des: "An online chat web application enabling real-time communication with a sleek UI and secure authentication.",
-    img: "https://your-image-link.com/quickchat.png",
+    img: "/p1.svg",
     iconLists: [
       "/next.svg",
       "/React.svg",
@@ -89,15 +89,17 @@ export const projects = [
     id: 2,
     title: "Smart Asset Allocator",
     des: "A smart tool that suggests personalized investment allocations using stock prediction, sentiment analysis, and explainable AI.",
-    img: "https://your-image-link.com/asset-allocator.png",
     iconLists: ["/python.svg", "/flask.svg", "/ml.svg", "/chart.svg"],
+    img: "/p1.svg",
+
     link: "https://your-live-link.com/asset-allocator",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     des: "A full-stack e-commerce platform for electronics, featuring secure authentication, admin dashboard, and Stripe integration.",
-    img: "https://your-image-link.com/ecommerce.png",
+    img: "/p1.svg",
+
     iconLists: [
       "/next.svg",
       "/React.svg",
@@ -111,7 +113,8 @@ export const projects = [
     id: 4,
     title: "Movie Recommender System",
     des: "A personalized movie recommendation engine based on collaborative filtering and user preferences.",
-    img: "https://your-image-link.com/movie-recommender.png",
+    img: "/p1.svg",
+
     iconLists: ["/python.svg", "/ml.svg", "/pandas.svg", "/sklearn.svg"],
     link: "https://your-live-link.com/movie-recommender",
   },
@@ -119,7 +122,8 @@ export const projects = [
     id: 5,
     title: "FlaskBlog",
     des: "A clean and simple blogging platform built with Flask, supporting markdown, authentication, and CRUD operations.",
-    img: "https://your-image-link.com/flaskblog.png",
+    img: "/p1.svg",
+
     iconLists: ["/python.svg", "/flask.svg", "/html.svg", "/css.svg"],
     link: "https://your-live-link.com/flaskblog",
   },
@@ -127,7 +131,8 @@ export const projects = [
     id: 6,
     title: "WhatsApp Chat Analyzer",
     des: "A data analysis tool that extracts insights from WhatsApp chat exports using NLP and visualizations.",
-    img: "https://your-image-link.com/whatsapp-analyzer.png",
+    img: "/p1.svg",
+
     iconLists: ["/python.svg", "/pandas.svg", "/matplotlib.svg", "/nlp.svg"],
     link: "https://your-live-link.com/whatsapp-analyzer",
   },
@@ -135,7 +140,8 @@ export const projects = [
     id: 7,
     title: "DocGist (PDF Summarizer)",
     des: "An intelligent PDF summarizer that uses NLP to extract and summarize key content from academic or business documents.",
-    img: "https://your-image-link.com/docgist.png",
+    img: "/p1.svg",
+
     iconLists: ["/python.svg", "/flask.svg", "/nlp.svg", "/openai.svg"],
     link: "https://your-live-link.com/docgist",
   },
@@ -143,7 +149,8 @@ export const projects = [
     id: 8,
     title: "AppetizerJS (Restaurant Website)",
     des: "A beautifully designed restaurant website with menu browsing, table reservations, and mobile-friendly layout.",
-    img: "https://your-image-link.com/appetizerjs.png",
+    img: "/p1.svg",
+
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/tail.svg"],
     link: "https://your-live-link.com/appetizerjs",
   },
@@ -151,7 +158,8 @@ export const projects = [
     id: 9,
     title: "CalcCanvas (Math Drawing Calculator)",
     des: "A web app where users can draw math expressions and get instant calculations using OCR and evaluation logic.",
-    img: "https://your-image-link.com/calccanvas.png",
+    img: "/p1.svg",
+
     iconLists: ["/React.svg", "/ts.svg", "/canvas.svg", "/ml.svg"],
     link: "https://your-live-link.com/calccanvas",
   },
@@ -159,7 +167,8 @@ export const projects = [
     id: 10,
     title: "Schedulo (Scheduling App)",
     des: "A productivity-focused scheduling app that helps users manage events, reminders, and availability across days.",
-    img: "https://your-image-link.com/schedulo.png",
+    img: "/p1.svg",
+
     iconLists: ["/next.svg", "/React.svg", "/ts.svg", "/tail.svg"],
     link: "https://your-live-link.com/schedulo",
   },
@@ -167,7 +176,8 @@ export const projects = [
     id: 11,
     title: "SimpleBooks",
     des: "A minimalist bookkeeping app for tracking income, expenses, and financial summaries for small businesses.",
-    img: "https://your-image-link.com/simplebooks.png",
+    img: "/p1.svg",
+
     iconLists: ["/React.svg", "/ts.svg", "/chart.svg", "/mongo.svg"],
     link: "https://your-live-link.com/simplebooks",
   },
@@ -175,7 +185,8 @@ export const projects = [
     id: 12,
     title: "CarePulse (Doctor Appointment Allocator)",
     des: "A doctor appointment scheduling system that helps patients book slots, get reminders, and manage follow-ups.",
-    img: "https://your-image-link.com/carepulse.png",
+    img: "/p1.svg",
+
     iconLists: ["/next.svg", "/React.svg", "/ts.svg", "/mongo.svg"],
     link: "https://your-live-link.com/carepulse",
   },
@@ -183,7 +194,8 @@ export const projects = [
     id: 13,
     title: "Connect-o-Trial",
     des: "A legal-tech platform to connect clients with lawyers for quick consultation booking and document handling.",
-    img: "https://your-image-link.com/connectotrial.png",
+    img: "/p1.svg",
+
     iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/mongo.svg"],
     link: "https://your-live-link.com/connectotrial",
   },
