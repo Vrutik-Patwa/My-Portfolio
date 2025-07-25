@@ -1,7 +1,13 @@
+"use client";
 import { cn } from "@/utils/cn";
 import Image from "next/image";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { div, span } from "framer-motion/client";
+import { useState } from "react";
+import animationData from "@/data/confetti.json";
+import Lottie from "react-lottie";
+import MagicButton from "./MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
+import { BsFillClipboardCheckFill } from "react-icons/bs";
 
 export const BentoGrid = ({
   className,
@@ -41,6 +47,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("vrutikpatwa@gmail.com");
+    setCopied(true);
+  };
+
   return (
     <div
       className={cn(
@@ -53,7 +66,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,105,233,1) 41%, rgba(0,212,255,1) 100%)",
       }}
     >
-      <div className={`${id === 6} && 'flex justify-center h-full'`}>
+      <div className={`${id === 6 && "flex justify-center"} h-full'`}>
         <div className="w-full h-full absolute">
           {img && (
             <Image
@@ -123,6 +136,35 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+          {id === 6 && (
+            <div className="mt-5 relative">
+              <div className={`absolute -bottom-5 right-0`}>
+                <Lottie
+                  options={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData,
+                    rendererSettings: {
+                      preserveAspectRatio: "xMidyMid slice",
+                    },
+                  }}
+                />
+              </div>
+              <MagicButton
+                title={copied ? "Email copied" : "copy my Email"}
+                icon={
+                  copied ? (
+                    <BsFillClipboardCheckFill className="text-green-500 w-6 h-6" />
+                  ) : (
+                    <IoCopyOutline />
+                  )
+                }
+                position="left"
+                otherClasses="!bg-[#161a31]"
+                handleClick={handleCopy}
+              />
             </div>
           )}
         </div>
