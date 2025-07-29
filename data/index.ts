@@ -84,7 +84,7 @@ export const projects = [
       "/mongo.svg",
       "/cloudinary.svg",
     ],
-    link: "quick-chat-frontend-nine.vercel.app/",
+    link: "https://quick-chat-frontend-nine.vercel.app/",
   },
   // {
   //   id: 2,
