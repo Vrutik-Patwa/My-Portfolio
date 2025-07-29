@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -47,13 +49,22 @@ const Hero = () => {
             innovative tech solutions and lead impactful projects. I may not
             know everything, but I know where to find the answers!
           </p>
-          <Link href="#projects">
+          <div className="flex flex-row gap-4">
+            <Link href="#projects">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </Link>
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
+              handleClick={() =>
+                window.open("/Vrutik_Patwa_s_Resume_.pdf", "_blank")
+              }
+              title="View My Resume"
+              position=""
             />
-          </Link>
+          </div>
         </div>
       </div>
     </div>
