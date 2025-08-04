@@ -126,7 +126,7 @@ export const projects = [
     img: "/StreamBox.jpeg",
 
     iconLists: ["/python.svg", "/react.svg", "/shadcn.svg", "/tail.svg"],
-    link: "https://your-live-link.com/movie-recommender",
+    link: "https://github.com/Vrutik-Patwa/Movie-Recommender-System",
   },
   // {
   //   id: 5,
