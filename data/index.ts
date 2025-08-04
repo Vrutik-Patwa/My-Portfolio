@@ -248,7 +248,7 @@ export const workExperience = [
   {
     id: 1,
     title: "LeetCode",
-    desc: "Knight-ranked coder with 500+ problems solved. Focused on mastering system design, dynamic programming, and real-world coding patterns. Active in weekly and biweekly contests, consistently ranking in top percentiles.",
+    desc: "Knight-ranked coder with 400+ problems solved. Focused on mastering system design, dynamic programming, and real-world coding patterns. Active in weekly and biweekly contests, consistently ranking in top percentiles.",
     className: "md:col-span-2",
     thumbnail: "/leetcode.svg", // You can change to your own icon or leave as-is
     link: "https://leetcode.com/u/vrutikpatwa/",
@@ -256,7 +256,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Codeforces",
-    desc: "Expert-rated competitive programmer. Regularly participates in Div 2 & Div 3 contests, with strong performance in greedy, graphs, and number theory. Built strong intuition for time-efficient algorithms and edge-case handling.",
+    desc: "Pupil-rated competitive programmer. Regularly participates in Div 2 & Div 3 contests, with strong performance in greedy, graphs, and number theory. Built strong intuition for time-efficient algorithms and edge-case handling.",
     className: "md:col-span-2",
     thumbnail: "/Codeforces.svg",
     link: "https://codeforces.com/profile/VrutikPatwa",
@@ -264,7 +264,7 @@ export const workExperience = [
   {
     id: 3,
     title: "CodeChef",
-    desc: "Achieved 4★ rating with 200+ problems solved. Competed in Long Challenges, Starters, and Cook-Offs. Specialized in recursion, DP, and bit manipulation. Ranked among top performers in college-level contests.",
+    desc: "Achieved 2★ rating . Competed in Long Challenges, Starters, and Cook-Offs. Specialized in recursion, DP, and bit manipulation. Ranked among top performers in college-level contests.",
     className: "md:col-span-2",
     thumbnail: "/codechef.svg",
     link: "https://www.codechef.com/users/vrutikpatwa",
