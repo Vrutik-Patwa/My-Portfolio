@@ -108,7 +108,7 @@ export const projects = [
     des: "WhatsApp Chat Analyzer is a tool that visualizes and summarizes WhatsApp chat data with insights like message counts, most active users, and word usage. It uses Python, pandas, and matplotlib for data processing and visual analytics.",
     iconLists: ["/python.svg", "/StreamLit.svg", "Matplotlib.svg"],
     img: "/WhatsappAnalyzer.png",
-    link: "https://whatsapp-chat-analyzer-vrutik.streamlit.app/",
+    link: "https://whatsapp-chat-analyzer-edpx.onrender.com/",
   },
   {
     id: 3,
